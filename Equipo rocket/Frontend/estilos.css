@@ -1,0 +1,18 @@
+
+*{
+    margin: 20px;
+    padding: 20px;
+}
+
+p{
+    margin: 20px;
+    padding: 20px;
+}
+
+.titulo{
+    background-color: darkgray;
+}
+
+#identificador{
+    background-color: dimgray;
+}
