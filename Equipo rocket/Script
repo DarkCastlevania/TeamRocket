@@ -1,0 +1,37 @@
+Crear una carpeta con el nombre del proyecto 
+dotnet new sln 
+dotnet new classlib -o Persistencia 
+dotnet new classlib -o Dominio 
+dotnet new console -o Aplicacion 
+dotnet new webapi -o Servicios   
+dotnet sln add Servicios 
+dotnet sln add Aplicacion
+dotnet sln add Persistencia 
+dotnet sln add Dominio  
+dotnet tool install --global dotnet-ef
+dotnet tool update --global dotnet-ef
+cd Persistencia
+ctrl+shift+p
+seleccionar nuget package manager 
+5.0.10
+Microsoft.EntityFrameworkcore
+Microsoft.EntityFrameworkcore.tools
+Microsoft.EntityFrameworkcore.sqlserver
+Microsoft.EntityFrameworkcore.design 
+seleccionarlo en Persistencia
+cd ..\Aplicacion
+Microsoft.EntityFrameworkcore.design 
+seleccionarlo en Aplicacion
+cd ..\Persistencia
+dotnet add reference ..\Dominio
+cd ..\Aplicacion
+dotnet add reference ..\Persistencia
+cd ..\Servicios
+dotnet add reference ..\Aplicacion
+clic derecho sobre Persistencia new c# class
+AplicationContext.cs 
+cd ..\Persistencia
+dotnet ef migrations add Inicial --startup-project ..\Aplicacion
+dotnet ef database update --startup-project ..\Aplicacion
+dotnet ef migrations add Inicial2 --startup-project ..\Aplicacion
+dotnet ef database update --startup-project ..\Aplicacion
