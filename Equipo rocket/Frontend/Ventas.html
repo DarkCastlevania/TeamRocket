@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Educational registration form</title>
-    <link rel="stylesheet" href="Productos.css">
+    <link rel="stylesheet" href="Ventas.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
    
@@ -27,12 +27,14 @@
       <form action="/">
         <div class="title">
           <i class="fas fa-pencil-alt"></i> 
-          <h2>Registrar Productos</h2>
+          <h2>Registrar Venta</h2>
         </div>
         <div class="info">
-          <input type="text" name="name" placeholder="Codigo del Producto">
-          <input class="name" type="text" name="name" placeholder="Nombre Producto">
-          <input type="int" name="name" placeholder="Precio del Producto">
+            <input type="text" name="name" placeholder="Código Venta">
+            <input type="text" name="name" placeholder="Código del Producto">
+            <input type="text" name="name" placeholder="Documento del Cliente">
+            <input type="int" name="name" placeholder="Cantidad de Productos">
+            <input type="date" name="name" placeholder="Fecha">
           <!--
           
           <input type="text" name="name" placeholder="Phone number">
@@ -55,7 +57,7 @@
       <button type="submit" href="/">Enviar</button>
       -->        
         <div class="btn-group" align="center">
-          <a class="btn-item" >Guardar Producto</a>
+          <a class="btn-item" >Generar Factura</a>
           <a class="btn-item" >Cancelar</a>
         </div>
       </form>

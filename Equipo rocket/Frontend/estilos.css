@@ -1,145 +1,145 @@
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+img.resize {
+  width:400px; /* you can use % */
+  height: auto;
+}
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto-encima{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.texto-debajo{
+  position: absolute;
+  top: 80%;
+  
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+html, body {
+  min-height: 100%;
   }
-   
-  body{
-    background: #f3f0f0;
+  body, div, form, input, select, p { 
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  color: #eee;
   }
-   
-  .container{
-    width: 100%;
-    height: 100vh;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-   
-  .login-container{
-    display: flex;
-    width: 650px;
-    height: auto;
-    background: rgb(151, 228, 221);
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
-  }
-   
-  .register, .login{
-    flex: 1;
-  }
-   
-  .register{
-    padding: 40px;
-    position: relative;
-  }
-   
-  .register h2{
-    color: #797979;
-    margin-bottom: 30px;
-  }
-   
-  .register input{
-    width: 100%;
-    padding: 5px;
-    font-size: 16px;
-    margin-bottom: 25px;
-    border-top-style: none;
-    border-left-style: none;
-    border-right-style: none;
-    border-bottom: 1px solid #a8a8a8;
-    color: rgb(51, 51, 51);
-  }
-   
-  .register input:active,
-  .register input:focus{
-    outline: none;
-  }
-   
-  .register .submit{
-    width: auto;
-    padding: 10px;
-    background: #08f127;
-    color: #fff;
-    font-size: 12px;
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
-    cursor: pointer;
-  }
-   
-  .register::after{
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    top: 50%;
-    right: -23px;
-    padding: 10px;
-    text-align: center;
-    font-size: 19px;
-    background: #f1f1f1;
-    border-radius: 50%;
-    transform: translateY(-50%);
-    box-shadow: -1px 1px 3px 1px rgba(0, 0, 0, .2);
-    color: #7c7c7c;
-  }
-   
-  .login{
-    background-image: linear-gradient(to bottom right, #1a5eb6, #4cac9c);
-    padding: 40px;
-  }
-   
-  .login h2{
-    color: #fff;
-    margin-bottom: 45px;
-  }
-   
-  .login button i{
-    position: absolute;
-    top: 12px; 
-    left: 12px;
-  }
-   
-  .login button{
-    width: 100%;
-    margin: 15px 0px;
-    padding: 10px;
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
-    cursor: pointer;
-    position: relative;
-  }
-   
-  .login .fb{
-    background: #3b5999;
-    border-style: none;
-    color: #fff;
-  }
-   
-  .login .tw{
-    background: #55acef;
-    border-style: none;
-    color: #fff;
-  }
-   
-  .login .correo{
-    background: #33d4ce;
-    border-style: none;
-    color: #fff;
-  }
-   
-  @media only screen and (max-width: 540px){
-    .login-container{
-      display: block;
-    }
-   
-    .register, .login{
-      flex: none;
-    }
-   
-    .register::after{
-      top: unset;
-      bottom: -25px;
-      left: 50%;
-      transform: translateX(-50%) rotate(90deg);
-    }
-  }
+
+  body {
+      background: url("/uploads/media/default/0001/01/b5edc1bad4dc8c20291c8394527cb2c5b43ee13c.jpeg") no-repeat center;
+      background-size: cover;
+      }
+      h1, h2 {
+      text-transform: uppercase;
+      font-weight: 400;
+      }
+      h2 {
+      margin: 0 0 0 8px;
+      }
+      .main-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      padding: 25px;      
+      background: rgba(0, 0, 0, 0.5);   
+      }
+      .left-part, form {
+      padding: 25px;
+      }
+      .left-part {
+      text-align: center;
+      }
+      .fa-graduation-cap {
+      font-size: 72px;
+      }
+      form {
+      background: rgba(0, 0, 0, 0.7); 
+      }
+      .title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      }
+      .info {
+      display: flex;
+      flex-direction: column;
+      }
+      input, select {
+      padding: 5px;
+      margin-bottom: 30px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #eee;
+      }
+      input::placeholder {
+      color: #eee;
+      }
+      option:focus {
+      border: none;
+      }
+      option {
+      background: black; 
+      border: none;
+      }
+      .checkbox input {
+      margin: 0 10px 0 0;
+      vertical-align: middle;
+      }
+      .checkbox a {
+      color: #26a9e0;
+      }
+      .checkbox a:hover {
+      color: #85d6de;
+      }
+      .btn-item, button {
+      padding: 10px 5px;
+      margin-top: 20px;
+      border-radius: 5px; 
+      border: none;
+      background: #26a9e0; 
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 400;
+      color: #fff;
+      }
+      .btn-item {
+      display: inline-block;
+      margin: 20px 5px 0;
+      }
+      button {
+      width: 100%;
+      }
+      button:hover, .btn-item:hover {
+      background: #85d6de;
+      }
+      @media (min-width: 568px) {
+      html, body {
+      height: 100%;
+      }
+      .main-block {
+      flex-direction: row;
+      height: calc(100% - 50px);
+      }
+      .left-part, form {
+      flex: 1;
+      height: auto;
+      }
+      }
+      
