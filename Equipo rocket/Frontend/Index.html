@@ -1,35 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="estilos.css">
- 
-  <title>UI Login</title>
-</head>
-<body>
-   <div class="container">
-     <div class="login-container">
-       <div class="register">
-        <h2>Empresa Rocket</h2>
-         <h2>Registrarse</h2>
-         <form action="">
-           <input type="text" placeholder="Usuario" class="usuario">
-           <input type="password" placeholder="Contraseña" class="pass">
-           <input type="password" placeholder="Confirma contraseña" class="repass">
-           <input type="submit" class="submit" value="REGISTRARSE">
-         </form>
-       </div>
-       <div class="login">
-         <h2>Iniciar Sesión</h2>
-         <div class="login-items">
-           <button class="fb"><i class="fab fa-facebook-f"></i> Acceder con Facebook</button>
-           <button class="tw"><i class="fab fa-twitter"></i> Acceder con Twitter</button>
-           <button class="correo"><i class="fas fa-envelope"></i> Acceder con Correo</button>
-         </div>
-       </div>
-     </div>
-   </div>
-</body>
+<html>
+  <head>
+    <title>Educational registration form</title>
+    <link rel="stylesheet" href="Empresa.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+   
+  </head>
+  <body>
+    
+    <div class="main-block">
+      <div class="left-part">       
+        <i class="fas fa-graduation-cap"></i>      
+        <div class="contenedor">
+          <IMG class="resize" SRC="ER_background.jpg"  ALIGN=LEFT HSPACE=100 VSPACE=30>
+          
+         
+          <div class="texto-debajo">
+            <h1>Equipo rocket</h1> 
+          </div>
+         
+        </div>  
+                       
+      </div>
+      
+      <form action="/">
+        <div class="title">
+          <i class="fas fa-pencil-alt"></i> 
+          <h2>Registro Usuario</h2>
+        </div>
+        <div class="info">
+          <input class="name" type="text" name="name" placeholder="Usuario">
+          <input type="password" name="name" placeholder="Contraseña">
+          <input type="password" name="name" placeholder="Verificar Contraseña">
+          <!--
+          
+          <input type="text" name="name" placeholder="Phone number">
+          <input type="password" name="name" placeholder="Password">
+           <select>
+            <option value="course-type" selected>Course type*</option>
+            <option value="short-courses">Short courses</option>
+            <option value="featured-courses">Featured courses</option>
+            <option value="undergraduate">Undergraduate</option>
+            <option value="diploma">Diploma</option>
+            <option value="certificate">Certificate</option>
+            <option value="masters-degree">Masters degree</option>
+            <option value="postgraduate">Postgraduate</option>
+          </select>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox"><span>I agree to the <a href="https://www.w3docs.com/privacy-policy">Privacy Poalicy for W3Docs.</a></span>
+        
+        </div>
+      <button type="submit" href="/">Enviar</button>
+      -->        
+        <div class="btn-group" align="center">
+          <a class="btn-item" >Guardar</a>
+          <a class="btn-item" >Cancelar</a>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
