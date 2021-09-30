@@ -5833,19 +5833,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ANDRE\\.nuget\\packages\\": {}
+    "C:\\Users\\Castlevania\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "D:\\mintic\\TeamRocket\\Equipo rocket\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Aplicacion\\Aplicacion.csproj",
-      "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Aplicacion\\obj\\",
+      "projectPath": "D:\\mintic\\TeamRocket\\Equipo rocket\\Aplicacion\\Aplicacion.csproj",
+      "packagesPath": "C:\\Users\\Castlevania\\.nuget\\packages\\",
+      "outputPath": "D:\\mintic\\TeamRocket\\Equipo rocket\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Castlevania\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5857,8 +5857,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj"
+            "D:\\mintic\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "D:\\mintic\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj"
             }
           }
         }
@@ -5893,7 +5893,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

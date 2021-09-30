@@ -22,3 +22,15 @@ C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Dominio\obj\D
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.dll
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.pdb
+D:\mintic\TeamRocket\Equipo rocket\Dominio\bin\Debug\net5.0\Dominio.deps.json
+D:\mintic\TeamRocket\Equipo rocket\Dominio\bin\Debug\net5.0\Dominio.dll
+D:\mintic\TeamRocket\Equipo rocket\Dominio\bin\Debug\net5.0\ref\Dominio.dll
+D:\mintic\TeamRocket\Equipo rocket\Dominio\bin\Debug\net5.0\Dominio.pdb
+D:\mintic\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache
+D:\mintic\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\mintic\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
+D:\mintic\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
+D:\mintic\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+D:\mintic\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.dll
+D:\mintic\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\ref\Dominio.dll
+D:\mintic\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.pdb

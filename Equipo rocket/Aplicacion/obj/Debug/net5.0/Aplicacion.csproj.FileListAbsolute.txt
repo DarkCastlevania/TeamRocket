@@ -70,3 +70,11 @@ C:\Users\ANDRE\OneDrive\Documentos\MINTIC\Equipo rocket\Aplicacion\obj\Debug\net
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.dll
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\ref\Aplicacion.dll
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.pdb
+D:\mintic\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.csproj.AssemblyReference.cache
+D:\mintic\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\mintic\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.AssemblyInfoInputs.cache
+D:\mintic\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.AssemblyInfo.cs
+D:\mintic\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.csproj.CoreCompileInputs.cache
+D:\mintic\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.dll
+D:\mintic\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\ref\Aplicacion.dll
+D:\mintic\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.pdb

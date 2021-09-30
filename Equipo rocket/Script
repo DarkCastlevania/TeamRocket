@@ -35,5 +35,7 @@ dotnet ef migrations add Inicial --startup-project ..\Aplicacion
 dotnet ef database update --startup-project ..\Aplicacion
 dotnet ef migrations add Inicial2 --startup-project ..\Aplicacion
 dotnet ef database update --startup-project ..\Aplicacion
+dotnet ef migrations add Inicial3 --startup-project ..\Persistencia
+dotnet ef database update --startup-project ..\Persistencia
 
 
