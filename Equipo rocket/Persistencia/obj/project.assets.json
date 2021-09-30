@@ -5819,11 +5819,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\MINTIC\\Equipo rocket\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\MINTIC\\Equipo rocket\\Persistencia\\Persistencia.csproj",
+      "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
       "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\MINTIC\\Equipo rocket\\Persistencia\\obj\\",
+      "outputPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5838,8 +5838,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ANDRE\\OneDrive\\Documentos\\MINTIC\\Equipo rocket\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\MINTIC\\Equipo rocket\\Dominio\\Dominio.csproj"
+            "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj"
             }
           }
         }

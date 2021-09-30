@@ -12,6 +12,11 @@ namespace Persistencia
        public DbSet<Empresa> empresa {get; set;}
        public DbSet<Producto> producto {get; set;}
        public DbSet<Venta> venta {get; set;}
+       public DbSet<Paciente> paciente {get; set;}
+       public DbSet<Medico> medico {get; set;}
+       public DbSet<Enfermera> enfermera {get; set;}
+       public DbSet<Familiar> familiar {get; set;}
+
 
        private const string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog = Erocket;Integrated Security = True";
 

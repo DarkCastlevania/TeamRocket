@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rJmMWeH24QHhWUwEYM5YB+71Scv3eoYoh7mHgnSyNYHib4xiTLQpn51/KYSTg0Nyk8h/9/O0mDnhCQxHL203ZQ==",
+  "dgSpecHash": "Uyw/v9wEJYtDOzjpmxr4riOlO6xQgM26CPwG+LuhX55Sjzo1m1bKIrc85rwmNrK4duqfCn8ZeWobaY+vc/YA+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\MINTIC\\Equipo rocket\\Aplicacion\\Aplicacion.csproj",
+  "projectFilePath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Aplicacion\\Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ANDRE\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

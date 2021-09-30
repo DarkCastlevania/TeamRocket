@@ -67,3 +67,6 @@ C:\Users\ANDRE\OneDrive\Documentos\MINTIC\Equipo rocket\Aplicacion\obj\Debug\net
 C:\Users\ANDRE\OneDrive\Documentos\MINTIC\Equipo rocket\Aplicacion\obj\Debug\net5.0\ref\Aplicacion.dll
 C:\Users\ANDRE\OneDrive\Documentos\MINTIC\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.pdb
 C:\Users\ANDRE\OneDrive\Documentos\MINTIC\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.genruntimeconfig.cache
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.dll
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\ref\Aplicacion.dll
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.pdb

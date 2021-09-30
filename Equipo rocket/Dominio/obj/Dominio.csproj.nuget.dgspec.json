@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ANDRE\\OneDrive\\Documentos\\MINTIC\\Equipo rocket\\Dominio\\Dominio.csproj": {}
+    "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ANDRE\\OneDrive\\Documentos\\MINTIC\\Equipo rocket\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\MINTIC\\Equipo rocket\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\MINTIC\\Equipo rocket\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\MINTIC\\Equipo rocket\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"

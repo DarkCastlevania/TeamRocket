@@ -1,3 +1,7 @@
+using Dominio;
+using System.Collections.Generic;
+using System.Linq; 
+
 namespace Persistencia
 {
     public class RepositorioCliente: IRepositorioCliente

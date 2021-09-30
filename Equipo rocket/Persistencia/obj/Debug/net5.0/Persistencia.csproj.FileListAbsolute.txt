@@ -16,3 +16,11 @@ C:\Users\ANDRE\OneDrive\Documentos\MINTIC\Equipo rocket\Persistencia\obj\Debug\n
 C:\Users\ANDRE\OneDrive\Documentos\MINTIC\Equipo rocket\Persistencia\obj\Debug\net5.0\ref\Persistencia.dll
 C:\Users\ANDRE\OneDrive\Documentos\MINTIC\Equipo rocket\Persistencia\obj\Debug\net5.0\Persistencia.pdb
 C:\Users\ANDRE\OneDrive\Documentos\MINTIC\Equipo rocket\Persistencia\obj\Debug\net5.0\Persistencia.genruntimeconfig.cache
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\obj\Debug\net5.0\Persistencia.csproj.AssemblyReference.cache
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\obj\Debug\net5.0\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\obj\Debug\net5.0\Persistencia.AssemblyInfoInputs.cache
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\obj\Debug\net5.0\Persistencia.AssemblyInfo.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\obj\Debug\net5.0\Persistencia.dll
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\obj\Debug\net5.0\ref\Persistencia.dll
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\obj\Debug\net5.0\Persistencia.pdb
