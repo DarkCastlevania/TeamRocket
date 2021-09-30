@@ -7,7 +7,7 @@ namespace Persistencia
     public interface IRepositorioDirectivo
     {
         IEnumerable<Directivo> GetAllDirectivo();
-        Directivo AddDirectivo(Directivo Directivo);
+        Directivo AddDirectivo(Directivo directivo);
         Directivo UpdateDirectivo(Directivo directivo);
         void DeleteDirectivo(int IdDirectivo);
         Directivo GetDirectivo(int IdDirectivo);    
