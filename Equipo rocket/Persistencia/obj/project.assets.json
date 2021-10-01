@@ -5814,11 +5814,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\ANDRE\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\jhono\\.nuget\\packages\\": {}
+>>>>>>> 3f1533c6fa2ad121ea01928a24c72a6509507b1a
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
       "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
@@ -5827,6 +5832,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
+      "projectName": "Persistencia",
+      "projectPath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
+      "packagesPath": "C:\\Users\\jhono\\.nuget\\packages\\",
+      "outputPath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Persistencia\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\jhono\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 3f1533c6fa2ad121ea01928a24c72a6509507b1a
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5838,8 +5853,13 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {
               "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj"
+=======
+            "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {
+              "projectPath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj"
+>>>>>>> 3f1533c6fa2ad121ea01928a24c72a6509507b1a
             }
           }
         }

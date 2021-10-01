@@ -8,11 +8,16 @@
     "net5.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\ANDRE\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\jhono\\.nuget\\packages\\": {}
+>>>>>>> 3f1533c6fa2ad121ea01928a24c72a6509507b1a
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
       "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
@@ -21,6 +26,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
+      "projectName": "Dominio",
+      "projectPath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\jhono\\.nuget\\packages\\",
+      "outputPath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\jhono\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 3f1533c6fa2ad121ea01928a24c72a6509507b1a
       ],
       "originalTargetFrameworks": [
         "net5.0"

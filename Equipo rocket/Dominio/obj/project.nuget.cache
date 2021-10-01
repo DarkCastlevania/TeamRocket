@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "qROa2w7eCGRYzRrpNMoeRsnwkIiQhALJwifMytfB3a5up4CG8XDwyIlHOTMKp28m38We/my4JVi11q0k/4jxLg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
+=======
+  "dgSpecHash": "PhXoXsx9OYkrmChT9Z1cDl/oWKU+HFRNcYxamACV21rkZMN4h4k3wLcgCbdOc8J9rRtJaVt/7N8jk7LMdduMTw==",
+  "success": true,
+  "projectFilePath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
+>>>>>>> 3f1533c6fa2ad121ea01928a24c72a6509507b1a
   "expectedPackageFiles": [],
   "logs": []
 }
