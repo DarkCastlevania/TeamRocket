@@ -38,4 +38,18 @@ dotnet ef database update --startup-project ..\Aplicacion
 dotnet ef migrations add Inicial3 --startup-project ..\Persistencia
 dotnet ef database update --startup-project ..\Persistencia
 
+//crear aplicacion razor
+dotnet new webapp -o frontsito
+cd frontsito
+cd Cliente
+dotnet run
+dotnet new page -n Create
+dotnet new page -n Delete
+dotnet new page -n Edit
+dotnet new page -n Details
+dotnet new page -n List
+//paginas de documentacion w3schools razor
+
+
+
 

@@ -1,0 +1,32 @@
+﻿@page
+@model MyApp.Namespace.ListModel
+@{
+}
+<div class="textcenter">
+<h2>Cliente</h2>
+</div>
+<table style="width:100%">
+  <tr>
+    <th>Id</th>  
+    <th>Nombre</th>
+    <th>Edad</th>     
+  </tr>
+  @foreach (var cliente in Model.Cliente)
+  {
+      <tr>
+            <td>@cliente.Id</td>
+            <td>@cliente.Nombre</td>
+            <td>@cliente.Edad</td>            
+            <td><a class="btn btn-primary" asp-page="./Details" asp-route-id="">Detalle</a></td>
+                <i class="fas fa-info-circle"></i>
+
+            <td><a class="btn btn-primary">Editar</a></td>
+                <i class="fas fa-info-circle"></i>
+            <td><a class="btn btn-primary">Eliminar</a></td>
+
+    </tr>
+
+  }
+
+</table>
+
