@@ -42,3 +42,13 @@ D:\mintic\TeamRocket\Equipo rocket\Persistencia\bin\Debug\net5.0\Dominio.dll
 D:\mintic\TeamRocket\Equipo rocket\Persistencia\bin\Debug\net5.0\Dominio.pdb
 D:\mintic\TeamRocket\Equipo rocket\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CopyComplete
 D:\mintic\TeamRocket\Equipo rocket\Persistencia\obj\Debug\net5.0\Persistencia.genruntimeconfig.cache
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\bin\Debug\net5.0\Persistencia.deps.json
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\bin\Debug\net5.0\Persistencia.runtimeconfig.json
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\bin\Debug\net5.0\Persistencia.runtimeconfig.dev.json
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\bin\Debug\net5.0\Persistencia.dll
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\bin\Debug\net5.0\ref\Persistencia.dll
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\bin\Debug\net5.0\Persistencia.pdb
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\bin\Debug\net5.0\Dominio.dll
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\bin\Debug\net5.0\Dominio.pdb
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CopyComplete
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Persistencia\obj\Debug\net5.0\Persistencia.genruntimeconfig.cache

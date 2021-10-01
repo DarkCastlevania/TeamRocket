@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z9rLGcjUU4FYMeZLI0GVBp/Gn+OtUiXSVvZCyB+sySJxz3pBF5AkriZZxltSi3V/eC8qS3U17EwO+CccjPY9aQ==",
+  "dgSpecHash": "7FHEVYv1Rz92Z3J6DcHVT1amkaGfHmUpaVmocKbx3VeaQB/BwY0LxnF+UlW9JVjcb7AwrSSC0WzPCNy/bwWCRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\frontsito\\frontsito.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ANDRE\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

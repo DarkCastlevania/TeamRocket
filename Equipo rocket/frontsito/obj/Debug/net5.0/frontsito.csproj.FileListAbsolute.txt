@@ -1,0 +1,8 @@
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\frontsito.csproj.AssemblyReference.cache
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\frontsito.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\frontsito.AssemblyInfoInputs.cache
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\frontsito.AssemblyInfo.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\frontsito.csproj.CoreCompileInputs.cache
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\frontsito.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\frontsito.RazorAssemblyInfo.cache
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\frontsito.RazorAssemblyInfo.cs

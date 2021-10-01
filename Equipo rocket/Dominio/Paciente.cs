@@ -5,5 +5,14 @@ namespace Dominio
         public string Diagnostico {get; set; }
         public string Medicamentos {get; set; }
         public string Tratamiento {get; set; }
+
+        public Paciente(int id, string nombre, int edad, int tipoDocumento, int documento, string diagnostico, string medicamentos, string tratamiento) 
+        {
+            this.Persona(id, nombre, edad, tipoDocumento, documento);            
+            this.Diagnostico = diagnostico;
+            this.Medicamentos = medicamentos;
+            this.Tratamiento = tratamiento;               
+        }
+                
     }
 }

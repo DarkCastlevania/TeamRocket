@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Internal;
+using System;
 using Persistencia;
 using Dominio;
 
@@ -14,7 +15,7 @@ namespace Aplicacion
             addCliente();
         }
 
-        public static addCliente(){
+        public static void addCliente(){
             var cliente = new Cliente(
                 Nombre = "Jessie",
                 Edad = 17,
@@ -22,8 +23,27 @@ namespace Aplicacion
                 TipoDocumento = 6,
                 NumeroTelefono = 3214564215
             );
-            repoCliente.AddCliente(cliente);
-            
+            repoCliente.AddCliente(cliente);            
         }
+
+        public static void getCliente(int idCliente){
+            var cliente = repoCliente.getCliente(idCliente);
+            if(cliente == null) return;
+            Console.writeLine(cliente.Nombre);    
+        }
+
+        public static void updateCliente(int idCliente){
+            var cliente = repoCliente.getCliente(idCliente);
+            cliente.Nombre = "James";                
+            repoCliente.UpdateCliente(cliente);
+            Console.writeLine(cliente.Nombre);    
+        }
+
+        public static void deleteCliente(int idCliente)
+        {
+            repoCliente.deleteCliente(idCliente);
+        }
+
+
     }
 }

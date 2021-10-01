@@ -41,8 +41,9 @@ dotnet ef database update --startup-project ..\Persistencia
 //crear aplicacion razor
 dotnet new webapp -o frontsito
 cd frontsito
+dotnet run 
 cd Cliente
-dotnet run
+
 dotnet new page -n Create
 dotnet new page -n Delete
 dotnet new page -n Edit
