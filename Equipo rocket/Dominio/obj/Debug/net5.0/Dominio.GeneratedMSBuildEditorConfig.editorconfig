@@ -7,8 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Dominio
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\Dominio\
-=======
 build_property.ProjectDir = D:\AdargaDragon\TeamRocket\Equipo rocket\Dominio\
->>>>>>> 3f1533c6fa2ad121ea01928a24c72a6509507b1a

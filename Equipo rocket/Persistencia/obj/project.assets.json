@@ -5814,25 +5814,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\ANDRE\\.nuget\\packages\\": {}
-=======
     "C:\\Users\\jhono\\.nuget\\packages\\": {}
->>>>>>> 3f1533c6fa2ad121ea01928a24c72a6509507b1a
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
-      "projectName": "Persistencia",
-      "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
-      "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
       "projectUniqueName": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
       "projectPath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
@@ -5841,7 +5827,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jhono\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 3f1533c6fa2ad121ea01928a24c72a6509507b1a
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5853,13 +5838,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj"
-=======
             "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {
               "projectPath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj"
->>>>>>> 3f1533c6fa2ad121ea01928a24c72a6509507b1a
             }
           }
         }
@@ -5906,8 +5886,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Persistencia\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
