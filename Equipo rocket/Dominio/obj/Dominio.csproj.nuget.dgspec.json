@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\mintic\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {}
+    "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "D:\\mintic\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {
+    "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mintic\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "D:\\mintic\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\Castlevania\\.nuget\\packages\\",
-        "outputPath": "D:\\mintic\\TeamRocket\\Equipo rocket\\Dominio\\obj\\",
+        "projectPath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\jhono\\.nuget\\packages\\",
+        "outputPath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Castlevania\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jhono\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

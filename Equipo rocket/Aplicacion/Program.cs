@@ -14,15 +14,16 @@ namespace Aplicacion
             addCliente();
         }
 
-        public static addCliente(){
-            var cliente = new Cliente(
-                Nombre = "Jessie",
-                Edad = 17,
-                Documento= 1806467748,
-                TipoDocumento = 6,
-                NumeroTelefono = 3214564215
-            );
-            repoCliente.AddCliente(cliente);
+        public static void addCliente()
+        {
+            // var cliente = new Cliente(
+            //     Nombre = "Jessie",
+            //     Edad = 17,
+            //     Documento= 1806467748,
+            //     TipoDocumento = 6,
+            //     NumeroTelefono = 3214564215
+            // );
+            // repoCliente.AddCliente(cliente);
             
         }
     }

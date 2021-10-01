@@ -5814,19 +5814,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Castlevania\\.nuget\\packages\\": {}
+    "C:\\Users\\jhono\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\mintic\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "D:\\mintic\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Castlevania\\.nuget\\packages\\",
-      "outputPath": "D:\\mintic\\TeamRocket\\Equipo rocket\\Persistencia\\obj\\",
+      "projectPath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj",
+      "packagesPath": "C:\\Users\\jhono\\.nuget\\packages\\",
+      "outputPath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Castlevania\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jhono\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5838,8 +5838,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\mintic\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {
-              "projectPath": "D:\\mintic\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj"
+            "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {
+              "projectPath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj"
             }
           }
         }
