@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyApp.Namespace
 {
-    public class ListModel : PageModel
+    public class CreatePruebaModel : PageModel
     {
         public void OnGet()
         {

@@ -6,13 +6,9 @@ namespace Dominio
         public int Grupo {get; set; }
         public string Cargo {get; set; }
 
-        public Empleado(int id, string nombre, int edad, int tipoDocumento, int documento, int sueldoBruto, int grupo, string cargo) 
+        public Empleado(int id, string nombre, int edad, int tipoDocumento, int documento, int sueldoBruto, int grupo, string cargo):base(id, nombre, edad, tipoDocumento, documento)
         {
-            this.Id = id;
-            this.Nombre = nombre;
-            this.Edad = edad;
-            this.TipoDocumento = tipoDocumento;
-            this.Documento = documento;
+         
             this.SueldoBruto = sueldoBruto;    
             this.Grupo = grupo;
             this.Cargo = cargo;            

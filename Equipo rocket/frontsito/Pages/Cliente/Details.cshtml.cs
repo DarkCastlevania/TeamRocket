@@ -16,7 +16,7 @@ namespace MyApp.Namespace
         {
             _repo = repo;
         }
-        public 
+         
 
         public void OnGet()
         {

@@ -44,7 +44,7 @@ cd frontsito
 dotnet run 
 cd Cliente
 
-dotnet new page -n Create
+dotnet new page -n Create -o Prueba
 dotnet new page -n Delete
 dotnet new page -n Edit
 dotnet new page -n Details
