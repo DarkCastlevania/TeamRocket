@@ -50,6 +50,12 @@ dotnet new page -n Edit
 dotnet new page -n Details
 dotnet new page -n List
 //paginas de documentacion w3schools razor
+dotnet new page -n List -o Cliente
+// crear pagina de list en la carpeta persona
+
+
+
+
 
 
 

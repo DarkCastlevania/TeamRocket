@@ -78,6 +78,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {
+                "projectPath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj"
+              },
               "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj": {
                 "projectPath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj"
               }
