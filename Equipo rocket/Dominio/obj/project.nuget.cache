@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PhXoXsx9OYkrmChT9Z1cDl/oWKU+HFRNcYxamACV21rkZMN4h4k3wLcgCbdOc8J9rRtJaVt/7N8jk7LMdduMTw==",
+  "dgSpecHash": "qROa2w7eCGRYzRrpNMoeRsnwkIiQhALJwifMytfB3a5up4CG8XDwyIlHOTMKp28m38We/my4JVi11q0k/4jxLg==",
   "success": true,
-  "projectFilePath": "D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché D:\\AdargaDragon\\TeamRocket\\Equipo rocket\\Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

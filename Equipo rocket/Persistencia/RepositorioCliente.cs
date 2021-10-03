@@ -33,7 +33,7 @@ namespace Persistencia
             }
         }
 
-        public IEnumerable<Cliente> GetAllClient()
+        public IEnumerable<Cliente> GetAllCliente()
         {
             return _appContext.cliente;
         }

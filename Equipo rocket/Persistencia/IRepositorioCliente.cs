@@ -6,7 +6,7 @@ namespace Persistencia
 {
     public interface IRepositorioCliente
     {
-        IEnumerable<Cliente> GetAllClient();
+        IEnumerable<Cliente> GetAllCliente();
         Cliente AddCliente(Cliente cliente);
         Cliente UpdateCliente(Cliente cliente);
         void DeleteCliente(int IdCliente);

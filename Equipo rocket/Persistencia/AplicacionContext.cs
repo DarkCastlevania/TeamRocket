@@ -20,6 +20,11 @@ namespace Persistencia
 
        private const string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog = Erocket;Integrated Security = True";
 
+       public AplicacionContext() { }
+       
+            public AplicacionContext(DbContextOptions<AplicacionContext> options)
+            : base (options) { }
+
        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
        {
             if (!optionsBuilder.IsConfigured)

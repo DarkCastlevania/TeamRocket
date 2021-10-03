@@ -11,13 +11,13 @@
     <th>Nombre</th>
     <th>Edad</th>     
   </tr>
-  @foreach (var cliente in Model.Cliente)
+  @foreach (var cliente in Model.Clientes)
   {
       <tr>
             <td>@cliente.Id</td>
             <td>@cliente.Nombre</td>
             <td>@cliente.Edad</td>            
-            <td><a class="btn btn-dark" asp-page="./Details" asp-route-id="@Cliente.Id">Detalle</a></td>
+            <td><a class="btn btn-dark" asp-page="./Details" asp-route-id="@cliente.Id">Detalle</a></td>
                 <i class="fas fa-info-circle"></i>
             <td><a class="btn btn-dark">Editar</a></td>
                 <i class="fas fa-trash-alt"></i>

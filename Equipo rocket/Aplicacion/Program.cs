@@ -15,7 +15,6 @@ namespace Aplicacion
             addCliente();
         }
 
-<<<<<<< HEAD
         public static void addCliente(){
             var cliente = new Cliente(
                 Nombre = "Jessie",
@@ -25,19 +24,6 @@ namespace Aplicacion
                 NumeroTelefono = 3214564215
             );
             repoCliente.AddCliente(cliente);            
-=======
-        public static void addCliente()
-        {
-            // var cliente = new Cliente(
-            //     Nombre = "Jessie",
-            //     Edad = 17,
-            //     Documento= 1806467748,
-            //     TipoDocumento = 6,
-            //     NumeroTelefono = 3214564215
-            // );
-            // repoCliente.AddCliente(cliente);
-            
->>>>>>> 3f1533c6fa2ad121ea01928a24c72a6509507b1a
         }
 
         public static void getCliente(int idCliente){

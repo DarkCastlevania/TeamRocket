@@ -12,20 +12,20 @@ namespace MyApp.Namespace
     public class ListModel : PageModel
     {
         private readonly IRepositorioCliente _repo;
-        public IEnumerable<Cliente> Cliente { get; set;}
+        public IEnumerable<Cliente> Clientes { get; set;}
         public ListModel(IRepositorioCliente repositorioCliente)
         {
             _repo = repositorioCliente;
         }
 
-        public DeleteModel(IRepositorioCliente repo)
+       /*  public DeleteModel(IRepositorioCliente repo)
         {
             _repo=repo;
-        }
+        } */
 
-        public void OnGet(int id)
-        {
-            Cliente = _repo.GetCliente(id);
+        public void OnGet()
+        {            
+            Clientes = _repo.GetAllCliente();
         }
         public void OnPost(int id)
         {
