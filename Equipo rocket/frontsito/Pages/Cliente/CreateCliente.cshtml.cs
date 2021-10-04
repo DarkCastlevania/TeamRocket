@@ -9,8 +9,14 @@ namespace MyApp.Namespace
 {
     public class CreateClienteModel : PageModel
     {
+        private readonly IRepositorioCliente _repo;
+        public Cliente cliente { get; set;}
         public void OnGet()
         {
+        }
+        public void OnPost()
+        {
+            _repo.AddCliente(cliente);
         }
     }
 }
