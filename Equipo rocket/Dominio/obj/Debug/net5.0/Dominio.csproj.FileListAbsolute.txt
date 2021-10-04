@@ -46,3 +46,15 @@ D:\AdargaDragon\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.csproj
 D:\AdargaDragon\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.dll
 D:\AdargaDragon\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 D:\AdargaDragon\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.pdb
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\Dominio\bin\Debug\net5.0\Dominio.deps.json
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\Dominio\bin\Debug\net5.0\Dominio.dll
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\Dominio\bin\Debug\net5.0\ref\Dominio.dll
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\Dominio\bin\Debug\net5.0\Dominio.pdb
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.dll
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\ref\Dominio.dll
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\Dominio\obj\Debug\net5.0\Dominio.pdb
