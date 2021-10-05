@@ -19,11 +19,11 @@
             <td>@cliente.Edad</td>            
             <td><a class="btn btn-dark" asp-page="./Details" asp-route-id="@cliente.Id">Detalle</a></td>
                 <i class="fas fa-info-circle"></i>
-            <td><a class="btn btn-dark">Editar</a></td>
+            <td><a class="btn btn-dark" asp-page="./Edit" asp-route-id="@cliente.Id">Editar</a></td>
                 <i class="fas fa-trash-alt"></i>
-            <td><a class="btn btn-dark">Eliminar</a></td>
+            <td><a class="btn btn-dark" asp-page="./Delete" asp-route-id="@cliente.Id">Eliminar</a></td>
 
-            <td><a href="http://www.google.com" target="_blank">google</a></td>
+            @* <td><a href="http://www.google.com" target="_blank">google</a></td> *@
     </tr>
 
   }
