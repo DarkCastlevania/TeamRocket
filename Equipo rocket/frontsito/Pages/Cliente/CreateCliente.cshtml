@@ -1,7 +1,9 @@
 ﻿@page
 @model MyApp.Namespace.CreateClienteModel
 @{
+   
 }
+
 <head>
     <title>Educational registration form</title>
     <link rel="stylesheet" href="Empresa.css">
@@ -27,19 +29,18 @@
                        
       </div>
       
-      <form action="/">
+      <form  method="post" >
         <div class="title">
           <i class="fas fa-pencil-alt"></i> 
           <h2>Registro Cliente</h2>
         </div>
         <div class="info">
-          <input type="number" name="Id" value=""placeholder="Id">
-          <input type="text" name="NumeroTelefono" placeholder="Numero de telefono">
+          <input type="number" name="Id" value=""placeholder="Id">          
           <input class="name" type="text" name="Nombre" placeholder="Nombre">
           <input type="number" name="Edad" placeholder="Edad">
           <input type="number" name="TipoDocumento" placeholder="Tipo de Documento">
           <input type="number" name="Documento" placeholder="Documento">
-        
+          <input type="text" name="NumeroTelefono" placeholder="Numero de telefono">
           <!--
           
           <input type="text" name="name" placeholder="Phone number">
@@ -67,4 +68,5 @@
         </div>
       </form>
     </div>
-  </body>
+  </body> 
+  

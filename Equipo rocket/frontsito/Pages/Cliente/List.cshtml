@@ -4,6 +4,8 @@
 }
 <div class="textcenter">
 <h2>Cliente</h2>
+<a class="btn btn-dark" asp-page="./CreateCliente"><i class="fas fa-user-plus"></i></a>
+
 </div>
 <table style="width:100%">
   <tr>
@@ -13,16 +15,16 @@
   </tr>
   @foreach (var cliente in Model.Clientes)
   {
-      <tr>
+    <tr>
             <td>@cliente.Id</td>
             <td>@cliente.Nombre</td>
-            <td>@cliente.Edad</td>            
-            <td><a class="btn btn-dark" asp-page="./Details" asp-route-id="@cliente.Id">Detalle</a></td>
-                <i class="fas fa-info-circle"></i>
-            <td><a class="btn btn-dark" asp-page="./Edit" asp-route-id="@cliente.Id">Editar</a></td>
-                <i class="fas fa-trash-alt"></i>
-            <td><a class="btn btn-dark" asp-page="./Delete" asp-route-id="@cliente.Id">Eliminar</a></td>
-
+            <td>@cliente.Edad</td>   
+            <td><a class="btn btn-dark" asp-page="./Details" asp-route-id="@cliente.Id"><i class="fas fa-info"></i></a></td>                
+                
+            <td><a class="btn btn-dark" asp-page="./Edit" asp-route-id="@cliente.Id"><i class="fas fa-edit"></i></a></td>
+                
+            <td><a class="btn btn-dark" asp-page="./Delete" asp-route-id="@cliente.Id"><i class="fas fa-trash-alt"></i></a></td>
+                
             @* <td><a href="http://www.google.com" target="_blank">google</a></td> *@
     </tr>
 

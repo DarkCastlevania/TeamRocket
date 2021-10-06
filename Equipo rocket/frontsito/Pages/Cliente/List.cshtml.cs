@@ -18,10 +18,7 @@ namespace MyApp.Namespace
             _repo = repositorioCliente;
         }
 
-       /*  public DeleteModel(IRepositorioCliente repo)
-        {
-            _repo=repo;
-        } */
+        
 
         public void OnGet()
         {            
