@@ -7,29 +7,29 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Persistencia;
 using Dominio;
-
 namespace MyApp.Namespace
 {
-    public class createEmpleadoModel : PageModel
+    public class CreateProductoModel : PageModel
     {
-        private readonly IRepositorioEmpleado _repo;
-        public Empleado empleado { get; set;}
+       private readonly IRepositorioProducto _repo;
+        public Producto producto { get; set;}
 
-        public CreateEmpleadoModel(IRepositorioEmpleado repo)
+        public CreateProductoModel(IRepositorioProducto repo)
         {
             _repo = repo;
         }
         public void OnGet()
         {
          }
-        public void OnPost(Empleado empleado)
+        public void OnPost(Producto producto)
         {             
-            _repo.AddEmpleado(empleado);
+            _repo.AddProducto(producto);
         }
         public void Prueba()
         {
-            Console.WriteLine(empleado.Nombre);
+            Console.WriteLine(producto.Nombre);
         }
     }
 }
+
 

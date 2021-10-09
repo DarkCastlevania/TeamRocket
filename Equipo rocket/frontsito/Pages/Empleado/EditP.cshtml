@@ -1,7 +1,7 @@
 ﻿@page
-@model MyApp.Namespace.createEmpleadoModel
+@model MyApp.Namespace.EditPModel
 @{
- ViewData["Title"] = "Crear Empleado";
+ViewData["Title"] ="Editar Empleado";    
 }
 
 <head>
@@ -29,53 +29,28 @@
                        
       </div>
       
-      <form  method="post" >
+      <form method="post" >
         <div class="title">
           <i class="fas fa-pencil-alt"></i> 
           <h2>Registro Empleado</h2>
         </div>
         <div class="info">
-          @* <input asp-for="empleado.Id" type="number" name="Id" value=""placeholder="Id">            *@
+          @* <input asp-for="cliente.Id" type="number" name="Id" value=""placeholder="Id">            *@
           @* <label asp-for="Persona.Nombre" class="control-label"></label> *@
               @*   <input asp-for="Persona.Nombre" class="form-control" />
                 <span asp-validation-for="Persona.Nombre" class="text-danger"></span> *@
           <input asp-for="empleado.Nombre" class="name" type="text" name="Nombre" placeholder="Nombre">
           <input asp-for="empleado.Edad" type="number" name="Edad" placeholder="Edad">
           <input asp-for="empleado.TipoDocumento" type="number" name="TipoDocumento" placeholder="Tipo de Documento">
-          <input asp-for="empleado.Documento" type="number" name="Documento" placeholder="Documento">
+          <input asp-for="cempleado.Documento" type="number" name="Documento" placeholder="Documento">
           <input asp-for="empleado.NumeroTelefono" type="text" name="NumeroTelefono" placeholder="Numero de telefono">
-          <!--
           
-          <input type="text" name="name" placeholder="Phone number">
-          <input type="password" name="name" placeholder="Password">
-           <select>
-            <option value="course-type" selected>Course type*</option>
-            <option value="short-courses">Short courses</option>
-            <option value="featured-courses">Featured courses</option>
-            <option value="undergraduate">Undergraduate</option>
-            <option value="diploma">Diploma</option>
-            <option value="certificate">Certificate</option>
-            <option value="masters-degree">Masters degree</option>
-            <option value="postgraduate">Postgraduate</option>
-          </select>
-        </div>
-        <div class="checkbox">
-          <input type="checkbox" name="checkbox"><span>I agree to the <a href="https://www.w3docs.com/privacy-policy">Privacy Poalicy for W3Docs.</a></span>
-        
-        </div>
-      <button type="submit" href="/">Enviar</button>
-      -->    
-
         <div class="btn-group" align="center">
-         @*  <a class="btn-item" >Guardar</a>
-          <a class="btn-item" >Cancelar</a> 
-          
-          <span asp-validation-for="empleado.Nombre" class="text-danger"></span>*@
-          <input type="submit" value="Crear" class="btn btn-dark" />
+        <input type="submit" value="Actualizar" class="btn btn-dark" />
         </div>
       </form>
     </div>
     <div><a class="btn btn-dark" asp-page="./List"><i class="fas fa-angle-double-left"></i></a></div>    
-  </body> 
-  
+</div>
+  </body>
 

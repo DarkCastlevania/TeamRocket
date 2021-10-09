@@ -23,9 +23,9 @@ namespace Dominio
                
         }
         
-        public Persona(string nombre, int edad, int tipoDocumento, int documento) 
+        public Persona(int id, string nombre, int edad, int tipoDocumento, int documento) 
         {
-            
+            this.Id = id
             this.Nombre = nombre;
             this.Edad = edad;
             this.TipoDocumento = tipoDocumento;

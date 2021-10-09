@@ -4,32 +4,27 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Persistencia;
 using Dominio;
 
 namespace MyApp.Namespace
 {
-    public class createEmpleadoModel : PageModel
+    public class DeleteEModel : PageModel
     {
         private readonly IRepositorioEmpleado _repo;
         public Empleado empleado { get; set;}
 
-        public CreateEmpleadoModel(IRepositorioEmpleado repo)
+        public DeleteEModel(IRepositorioEmpleado repo)
         {
             _repo = repo;
         }
+
         public void OnGet()
         {
-         }
-        public void OnPost(Empleado empleado)
-        {             
-            _repo.AddEmpleado(empleado);
         }
-        public void Prueba()
+        public void OnPost(int id)
         {
-            Console.WriteLine(empleado.Nombre);
+            _repo.DeleteEmpleado(id);
         }
     }
 }
-

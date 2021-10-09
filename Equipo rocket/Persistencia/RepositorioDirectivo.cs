@@ -1,33 +1,37 @@
-using System.Runtime.InteropServices;
+using System;
+using System.Net.Http;
 using Dominio;
 using System.Collections.Generic;
 using System.Linq; 
+using Microsoft.EntityFrameworkCore;
 
 namespace Persistencia
 {
-    public class RepositorioDirectivo: IRepositorioDirectivo
-    {
-         private readonly AplicacionContext _appContext;
+    public class RepositorioDirectivo: IRepositorioDirectivo 
 
-        public RepositorioDirectivo(AplicacionContext appContext)
-        {
-            _appContext = appContext;            
-        }
+    {
+        private readonly AplicacionContext _appContext;
+
+        public RepositorioDirectivo(AplicacionContext appContext){
+
+            _appContext = appContext; 
+
+       }
         
         public Directivo AddDirectivo(Directivo directivo)
         {    
-            _appContext.Add(directivo);
+            var new_directivo=_appContext.directivo.Add(directivo);
             _appContext.SaveChanges();
-            return directivo;
+            return new_directivo.Entity;
         }
 
         public void DeleteDirectivo(int IdDirectivo)
         {
-            var Directivo_encontrado = _appContext.directivo.FirstOrDefault(
+           Directivo directivo_encontrado = _appContext.directivo.FirstOrDefault(
                 p => p.Id == IdDirectivo);
-            if(Directivo_encontrado == null)
+            if(directivo_encontrado == null)
                 return ;
-            _appContext.Remove(Directivo_encontrado);
+            _appContext.Remove(directivo_encontrado);
             _appContext.SaveChanges();            
         }
 
@@ -38,22 +42,20 @@ namespace Persistencia
 
         public Directivo UpdateDirectivo(Directivo directivo)
         {
-            Directivo Directivo_encontrado = _appContext.directivo.FirstOrDefault(
+            var directivo_encontrado = _appContext.directivo.FirstOrDefault(
                 p => p.Id == directivo.Id);
-            if(Directivo_encontrado != null)
+           if(directivo_encontrado != null)
             {
-                Directivo_encontrado.Nombre = directivo.Nombre;
-                Directivo_encontrado.Edad = directivo.Edad;
-                Directivo_encontrado.TipoDocumento = directivo.TipoDocumento;
-                Directivo_encontrado.Documento = directivo.Documento;
-                Directivo_encontrado.GrupoEmpleados = directivo.GrupoEmpleados;
-                Directivo_encontrado.Categoria = directivo.Categoria;
-
-                _appContext.Update(Directivo_encontrado);
+                directivo_encontrado.Nombre = directivo.Nombre;
+                directivo_encontrado.Edad = directivo.Edad;
+                directivo_encontrado.TipoDocumento = directivo.TipoDocumento;
+                directivo_encontrado.Documento = directivo.Documento; 
+                directivo_encontrado.Id = directivo.Id;
+                _appContext.Update(directivo_encontrado);
                 _appContext.SaveChanges();  
-                return Directivo_encontrado;
+                return directivo_encontrado;
             }        
-            return null;
+            return null;            
         }
 
         public Directivo GetDirectivo(int IdDirectivo)
@@ -61,5 +63,6 @@ namespace Persistencia
             return _appContext.directivo.FirstOrDefault(
                 p => p.Id == IdDirectivo);
         }
+
     }
 }

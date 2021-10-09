@@ -1,7 +1,7 @@
 ﻿@page
-@model MyApp.Namespace.createEmpleadoModel
+@model MyApp.Namespace.CreateProductoModel
 @{
- ViewData["Title"] = "Crear Empleado";
+ViewData["Title"] = "Crear Producto";
 }
 
 <head>
@@ -32,23 +32,19 @@
       <form  method="post" >
         <div class="title">
           <i class="fas fa-pencil-alt"></i> 
-          <h2>Registro Empleado</h2>
+          <h2>Registro Producto</h2>
         </div>
         <div class="info">
-          @* <input asp-for="empleado.Id" type="number" name="Id" value=""placeholder="Id">            *@
+          @* <input asp-for="producto.Id" type="number" name="Id" value=""placeholder="Id">            *@
           @* <label asp-for="Persona.Nombre" class="control-label"></label> *@
               @*   <input asp-for="Persona.Nombre" class="form-control" />
                 <span asp-validation-for="Persona.Nombre" class="text-danger"></span> *@
-          <input asp-for="empleado.Nombre" class="name" type="text" name="Nombre" placeholder="Nombre">
-          <input asp-for="empleado.Edad" type="number" name="Edad" placeholder="Edad">
-          <input asp-for="empleado.TipoDocumento" type="number" name="TipoDocumento" placeholder="Tipo de Documento">
-          <input asp-for="empleado.Documento" type="number" name="Documento" placeholder="Documento">
-          <input asp-for="empleado.NumeroTelefono" type="text" name="NumeroTelefono" placeholder="Numero de telefono">
+          <input asp-for="producto.Nombre" class="name" type="text" name="Nombre" placeholder="Nombre">
+          <input asp-for="producto.Precio" type="number" name="Precio" placeholder="Precio">
+          <input asp-for="producto.Id" type="number" name="Id" placeholder="Id">
           <!--
           
-          <input type="text" name="name" placeholder="Phone number">
-          <input type="password" name="name" placeholder="Password">
-           <select>
+          <input type="text" name="name" placeholder="NOmbre Producto">
             <option value="course-type" selected>Course type*</option>
             <option value="short-courses">Short courses</option>
             <option value="featured-courses">Featured courses</option>
@@ -70,7 +66,7 @@
          @*  <a class="btn-item" >Guardar</a>
           <a class="btn-item" >Cancelar</a> 
           
-          <span asp-validation-for="empleado.Nombre" class="text-danger"></span>*@
+          <span asp-validation-for="producto.Nombre" class="text-danger"></span>*@
           <input type="submit" value="Crear" class="btn btn-dark" />
         </div>
       </form>
@@ -78,4 +74,5 @@
     <div><a class="btn btn-dark" asp-page="./List"><i class="fas fa-angle-double-left"></i></a></div>    
   </body> 
   
+
 
