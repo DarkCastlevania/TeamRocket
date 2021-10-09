@@ -3,6 +3,7 @@ using System.Net.Http;
 using Dominio;
 using System.Collections.Generic;
 using System.Linq; 
+using Microsoft.EntityFrameworkCore;
 
 namespace Persistencia
 {
@@ -17,9 +18,9 @@ namespace Persistencia
         
         public Cliente AddCliente(Cliente cliente)
         {    
-            _appContext.Add(cliente);
+            var new_cliente=_appContext.cliente.Add(cliente);
             _appContext.SaveChanges();
-            return cliente;
+            return new_cliente.Entity;
         }
 
         public void DeleteCliente(int IdCliente)
@@ -36,6 +37,7 @@ namespace Persistencia
         public IEnumerable<Cliente> GetAllCliente()
         {
             return _appContext.cliente;
+            /* return _appContext.cliente.AsNoTracking();sino no se requiere en cache */
         }
 
         public Cliente UpdateCliente(Cliente cliente)

@@ -1,7 +1,7 @@
 ﻿@page
 @model MyApp.Namespace.CreateClienteModel
 @{
-   
+   ViewData["Title"] = "Crear Cliente";
 }
 
 <head>
@@ -35,12 +35,15 @@
           <h2>Registro Cliente</h2>
         </div>
         <div class="info">
-          <input type="number" name="Id" value=""placeholder="Id">          
-          <input class="name" type="text" name="Nombre" placeholder="Nombre">
-          <input type="number" name="Edad" placeholder="Edad">
-          <input type="number" name="TipoDocumento" placeholder="Tipo de Documento">
-          <input type="number" name="Documento" placeholder="Documento">
-          <input type="text" name="NumeroTelefono" placeholder="Numero de telefono">
+          @* <input asp-for="cliente.Id" type="number" name="Id" value=""placeholder="Id">            *@
+          @* <label asp-for="Persona.Nombre" class="control-label"></label> *@
+              @*   <input asp-for="Persona.Nombre" class="form-control" />
+                <span asp-validation-for="Persona.Nombre" class="text-danger"></span> *@
+          <input asp-for="cliente.Nombre" class="name" type="text" name="Nombre" placeholder="Nombre">
+          <input asp-for="cliente.Edad" type="number" name="Edad" placeholder="Edad">
+          <input asp-for="cliente.TipoDocumento" type="number" name="TipoDocumento" placeholder="Tipo de Documento">
+          <input asp-for="cliente.Documento" type="number" name="Documento" placeholder="Documento">
+          <input asp-for="cliente.NumeroTelefono" type="text" name="NumeroTelefono" placeholder="Numero de telefono">
           <!--
           
           <input type="text" name="name" placeholder="Phone number">
@@ -61,12 +64,17 @@
         
         </div>
       <button type="submit" href="/">Enviar</button>
-      -->        
+      -->    
+
         <div class="btn-group" align="center">
-          <a class="btn-item" >Guardar</a>
-          <a class="btn-item" >Cancelar</a>
+         @*  <a class="btn-item" >Guardar</a>
+          <a class="btn-item" >Cancelar</a> 
+          
+          <span asp-validation-for="cliente.Nombre" class="text-danger"></span>*@
+          <input type="submit" value="Crear" class="btn btn-dark" />
         </div>
       </form>
     </div>
+    <div><a class="btn btn-dark" asp-page="./List"><i class="fas fa-angle-double-left"></i></a></div>    
   </body> 
   

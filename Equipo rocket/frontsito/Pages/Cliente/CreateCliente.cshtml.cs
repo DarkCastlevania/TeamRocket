@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Persistencia;
 using Dominio;
 
@@ -18,14 +19,16 @@ namespace MyApp.Namespace
         {
             _repo = repo;
         }
-
         public void OnGet()
         {
         }
-        public void OnPost()
-        {
-             
+        public void OnPost(Cliente cliente)
+        {             
             _repo.AddCliente(cliente);
+        }
+        public void Prueba()
+        {
+            Console.WriteLine(cliente.Nombre);
         }
     }
 }

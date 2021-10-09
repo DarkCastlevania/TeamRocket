@@ -1,5 +1,55 @@
 ﻿@page
 @model MyApp.Namespace.EditModel
 @{
+    ViewData["Title"] ="Editar Cliente";    
 }
 
+<head>
+    <title>Educational registration form</title>
+    <link rel="stylesheet" href="Empresa.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+   
+  </head>
+  <body>
+    
+    <div class="main-block">
+      <div class="left-part">       
+        <i class="fas fa-user-astronaut"></i>  
+        <div class="contenedor">
+          <IMG class="resize" SRC="ER_background.jpg"  ALIGN=LEFT HSPACE=100 VSPACE=30>
+          
+         
+          <div class="texto-debajo">
+            <h1>Equipo rocket</h1> 
+          </div>
+         
+        </div>  
+                       
+      </div>
+      
+      <form method="post" >
+        <div class="title">
+          <i class="fas fa-pencil-alt"></i> 
+          <h2>Registro Cliente</h2>
+        </div>
+        <div class="info">
+          @* <input asp-for="cliente.Id" type="number" name="Id" value=""placeholder="Id">            *@
+          @* <label asp-for="Persona.Nombre" class="control-label"></label> *@
+              @*   <input asp-for="Persona.Nombre" class="form-control" />
+                <span asp-validation-for="Persona.Nombre" class="text-danger"></span> *@
+          <input asp-for="cliente.Nombre" class="name" type="text" name="Nombre" placeholder="Nombre">
+          <input asp-for="cliente.Edad" type="number" name="Edad" placeholder="Edad">
+          <input asp-for="cliente.TipoDocumento" type="number" name="TipoDocumento" placeholder="Tipo de Documento">
+          <input asp-for="cliente.Documento" type="number" name="Documento" placeholder="Documento">
+          <input asp-for="cliente.NumeroTelefono" type="text" name="NumeroTelefono" placeholder="Numero de telefono">
+          
+        <div class="btn-group" align="center">
+        <input type="submit" value="Actualizar" class="btn btn-dark" />
+        </div>
+      </form>
+    </div>
+    <div><a class="btn btn-dark" asp-page="./List"><i class="fas fa-angle-double-left"></i></a></div>    
+</div>
+  </body>
