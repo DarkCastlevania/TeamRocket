@@ -5833,19 +5833,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ANDRE\\.nuget\\packages\\": {}
+    "C:\\Users\\IEDTISQUESUSA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "c:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Aplicacion\\Aplicacion.csproj",
-      "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Aplicacion\\obj\\",
+      "projectPath": "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\aplicacion\\Aplicacion.csproj",
+      "packagesPath": "C:\\Users\\IEDTISQUESUSA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\IEDTISQUESUSA\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5857,8 +5857,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "c:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj"
+            "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj"
             }
           }
         }
@@ -5893,16 +5893,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché c:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Aplicacion\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

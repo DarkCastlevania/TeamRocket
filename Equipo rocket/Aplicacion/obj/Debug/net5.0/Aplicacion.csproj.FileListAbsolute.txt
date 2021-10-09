@@ -147,3 +147,11 @@ D:\AdargaDragon\TeamRocket\Equipo rocket\Aplicacion\bin\Debug\net5.0\Persistenci
 D:\AdargaDragon\TeamRocket\Equipo rocket\Aplicacion\bin\Debug\net5.0\Dominio.pdb
 D:\AdargaDragon\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.csproj.CopyComplete
 D:\AdargaDragon\TeamRocket\Equipo rocket\Aplicacion\obj\Debug\net5.0\Aplicacion.genruntimeconfig.cache
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\aplicacion\obj\Debug\net5.0\Aplicacion.csproj.AssemblyReference.cache
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\aplicacion\obj\Debug\net5.0\Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\aplicacion\obj\Debug\net5.0\Aplicacion.AssemblyInfoInputs.cache
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\aplicacion\obj\Debug\net5.0\Aplicacion.AssemblyInfo.cs
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\aplicacion\obj\Debug\net5.0\Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\aplicacion\obj\Debug\net5.0\Aplicacion.dll
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\aplicacion\obj\Debug\net5.0\ref\Aplicacion.dll
+C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\aplicacion\obj\Debug\net5.0\Aplicacion.pdb
