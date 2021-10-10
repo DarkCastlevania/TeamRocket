@@ -1,5 +1,5 @@
 ﻿@page
-@model MyApp.Namespace.createEmpleadoModel
+@model MyApp.Namespace.CreateEmpleadoModel
 @{
  ViewData["Title"] = "Crear Empleado";
 }
@@ -43,7 +43,9 @@
           <input asp-for="empleado.Edad" type="number" name="Edad" placeholder="Edad">
           <input asp-for="empleado.TipoDocumento" type="number" name="TipoDocumento" placeholder="Tipo de Documento">
           <input asp-for="empleado.Documento" type="number" name="Documento" placeholder="Documento">
-          <input asp-for="empleado.NumeroTelefono" type="text" name="NumeroTelefono" placeholder="Numero de telefono">
+          <input asp-for="empleado.SueldoBruto" type="text" name="SueldoBruto" placeholder="Sueldo Bruto">
+          <input asp-for="empleado.Grupo" type="text" name="Grupo" placeholder="Grupo">
+          <input asp-for="empleado.Cargo" type="text" name="Cargo" placeholder="Cargo">
           <!--
           
           <input type="text" name="name" placeholder="Phone number">

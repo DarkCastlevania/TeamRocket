@@ -20,7 +20,7 @@ namespace MyApp.Namespace
 
         public void OnGet(int id)
         {
-            cliente = _repo.GetProducto(id);
+            producto = _repo.GetProducto(id);
         }
     }
 }

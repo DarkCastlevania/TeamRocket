@@ -42,10 +42,10 @@ ViewData["Title"] ="Detalle Empleado";
     </div>
     <div class="row">
         <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.empleado.NumeroTelefono)            
+            @Html.DisplayNameFor(model => model.empleado.SueldoBruto)            
         </dt>
         <dd class="col-md-10">
-            @Html.DisplayFor(model => model.empleado.NumeroTelefono)
+            @Html.DisplayFor(model => model.empleado.SueldoBruto)
         </dd>
     </div>
     <div class="row">
@@ -62,6 +62,22 @@ ViewData["Title"] ="Detalle Empleado";
         </dt>
         <dd class="col-md-10">
             @Html.DisplayFor(model => model.empleado.Documento)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.empleado.Grupo)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.empleado.Grupo)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.empleado.Cargo)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.empleado.Cargo)
         </dd>
     </div>
 </div>

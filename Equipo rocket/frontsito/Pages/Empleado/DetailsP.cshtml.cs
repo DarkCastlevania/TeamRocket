@@ -22,7 +22,7 @@ namespace MyApp.Namespace
 
         public void OnGet(int id)
         {
-            cliente = _repo.GetEmpleado(id);
+            empleado = _repo.GetEmpleado(id);
         }
     }
 }

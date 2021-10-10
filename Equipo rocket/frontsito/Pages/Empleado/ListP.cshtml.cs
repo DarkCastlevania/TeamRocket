@@ -12,9 +12,9 @@ namespace MyApp.Namespace
     {
         private readonly IRepositorioEmpleado _repo;
         public IEnumerable<Empleado> Empleados { get; set;}
-        public ListPModel(IRepositorioEmpleado RepositorioEmpleado)
+        public ListPModel(IRepositorioEmpleado repositorioEmpleado)
         {
-            _repo = RepositorioEmpleado;
+            _repo = repositorioEmpleado;
         }
 
         

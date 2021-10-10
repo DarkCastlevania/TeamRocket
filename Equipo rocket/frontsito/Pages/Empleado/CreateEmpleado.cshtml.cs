@@ -10,7 +10,7 @@ using Dominio;
 
 namespace MyApp.Namespace
 {
-    public class createEmpleadoModel : PageModel
+    public class CreateEmpleadoModel : PageModel
     {
         private readonly IRepositorioEmpleado _repo;
         public Empleado empleado { get; set;}

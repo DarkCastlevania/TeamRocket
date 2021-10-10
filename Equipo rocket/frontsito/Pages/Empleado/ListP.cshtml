@@ -4,7 +4,7 @@
 }
 <div class="textcenter">
 <h2>Empleado</h2>
-<a class="btn btn-dark" asp-page="./CreateEmpleados"><i class="fas fa-user-plus"></i></a>
+<a class="btn btn-dark" asp-page="./CreateEmpleado"><i class="fas fa-user-plus"></i></a>
 
 </div>
 <table style="width:100%">
@@ -13,17 +13,17 @@
     <th>Nombre</th>
     <th>Edad</th>     
   </tr>
-  @foreach (var empleado in Model.Empleado)
+  @foreach (var empleado in Model.Empleados)
   {
     <tr>
             <td>@empleado.Id</td>
             <td>@empleado.Nombre</td>
             <td>@empleado.Edad</td>   
-            <td><a class="btn btn-dark" asp-page="./Details" asp-route-id="@empleado.Id"><i class="fas fa-info"></i></a></td>                
+            <td><a class="btn btn-dark" asp-page="./DetailsP" asp-route-id="@empleado.Id"><i class="fas fa-info"></i></a></td>                
                 
-            <td><a class="btn btn-dark" asp-page="./Edit" asp-route-id="@empleado.Id"><i class="fas fa-edit"></i></a></td>
+            <td><a class="btn btn-dark" asp-page="./EditP" asp-route-id="@empleado.Id"><i class="fas fa-edit"></i></a></td>
                 
-            <td><a class="btn btn-dark" asp-page="./Delete" asp-route-id="@empleado.Id"><i class="fas fa-trash-alt"></i></a></td>
+            <td><a class="btn btn-dark" asp-page="./DeleteE" asp-route-id="@empleado.Id"><i class="fas fa-trash-alt"></i></a></td>
                 
             @* <td><a href="http://www.google.com" target="_blank">google</a></td> *@
     </tr>

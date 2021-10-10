@@ -322,3 +322,12 @@ C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\frontsito\obj\D
 C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\frontsito.Views.pdb
 C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\frontsito.csproj.CopyComplete
 C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\frontsito.genruntimeconfig.cache
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empleado\CreateEmpleado.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empleado\DeleteE.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empleado\DetailsP.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empleado\EditP.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empleado\ListP.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Producto\CreateProducto.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Producto\DeleteP.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Producto\DetailsProducto.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Producto\ListProducto.cshtml.g.cs
