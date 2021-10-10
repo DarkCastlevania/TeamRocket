@@ -1,0 +1,57 @@
+﻿@page
+@model MyApp.Namespace.EditDirectivoModel
+@{
+ViewData["Title"] ="Editar Directivo";    
+}
+
+<head>
+    <title>Educational registration form</title>
+    <link rel="stylesheet" href="Empresa.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+   
+  </head>
+  <body>
+    
+    <div class="main-block">
+      <div class="left-part">       
+        <i class="fas fa-user-astronaut"></i>  
+        <div class="contenedor">
+          <IMG class="resize" SRC="ER_background.jpg"  ALIGN=LEFT HSPACE=100 VSPACE=30>
+          
+         
+          <div class="texto-debajo">
+            <h1>Equipo Rocket</h1> 
+          </div>
+         
+        </div>  
+                       
+      </div>
+      
+      <form method="post" >
+        <div class="title">
+          <i class="fas fa-pencil-alt"></i> 
+          <h2>Registro Directivo</h2>
+        </div>
+        <div class="info">
+          @* <input asp-for="cliente.Id" type="number" name="Id" value=""placeholder="Id">            *@
+          @* <label asp-for="Persona.Nombre" class="control-label"></label> *@
+              @*   <input asp-for="Persona.Nombre" class="form-control" />
+                <span asp-validation-for="Persona.Nombre" class="text-danger"></span> *@
+          <input asp-for="directivo.Nombre" class="name" type="text" name="Nombre" placeholder="Nombre">
+          <input asp-for="directivo.Edad" type="number" name="Edad" placeholder="Edad">
+          <input asp-for="directivo.TipoDocumento" type="number" name="TipoDocumento" placeholder="Tipo de Documento">
+          <input asp-for="directivo.Documento" type="number" name="Documento" placeholder="Documento">          
+          <input asp-for="directivo.GrupoEmpleados" type="text" name="GrupoEmpleados" placeholder="Grupo de Empleados">
+          <input asp-for="directivo.Categoria" type="number" name="Categoria" placeholder="Categoria">
+          
+        <div class="btn-group" align="center">
+        <input type="submit" value="Actualizar" class="btn btn-dark" />
+        </div>
+      </form>
+    </div>
+    <div><a class="btn btn-dark" asp-page="./ListDirectivo"><i class="fas fa-angle-double-left"></i></a></div>    
+</div>
+  </body>
+

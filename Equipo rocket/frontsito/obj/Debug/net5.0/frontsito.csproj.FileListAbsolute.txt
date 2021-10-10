@@ -337,6 +337,7 @@ C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empresa\DetailsEmpresa.cshtml.g.cs
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empresa\EditEmpresa.cshtml.g.cs
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empresa\ListEmpresa.cshtml.g.cs
+<<<<<<< HEAD
 C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empleado\createEmpleado.cshtml.g.cs
 C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empleado\DeleteE.cshtml.g.cs
 C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empleado\DetailsP.cshtml.g.cs
@@ -357,3 +358,10 @@ C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\frontsito\obj\D
 C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Venta\DetailsV.cshtml.g.cs
 C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Venta\EditV.cshtml.g.cs
 C:\Users\IEDTISQUESUSA\Documents\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Venta\ListV.cshtml.g.cs
+=======
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Directivo\CreateDirectivo.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Directivo\DeleteDirectivo.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Directivo\DetailsDirectivo.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Directivo\EditDirectivo.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Directivo\ListDirectivo.cshtml.g.cs
+>>>>>>> c1f31a61aec27651b2486ca29684ca47d598bed9

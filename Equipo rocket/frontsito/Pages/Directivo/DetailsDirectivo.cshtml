@@ -1,0 +1,138 @@
+﻿@page
+@model MyApp.Namespace.DetailsDirectivoModel
+@{
+ViewData["Title"] ="Detalle Directivo";    
+}
+@* <head>
+    <title>Educational registration form</title>
+    <link rel="stylesheet" href="Empresa.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+   
+</head> *@
+
+<h1>Detalle Directivo</h1>
+<small>
+</small>
+<div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.directivo.Id)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => Model.directivo.Id)                        
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.directivo.Nombre)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => Model.directivo.Nombre)                        
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.Edad)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.Edad)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.TipoDocumento)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.TipoDocumento)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.Documento)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.Documento)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.GrupoEmpleados)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.GrupoEmpleados)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.Categoria)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.Categoria)
+        </dd>
+    </div>
+</div>
+<div><a class="btn btn-dark" asp-page="./ListDirectivo"><i class="fas fa-angle-double-left"></i></a>
+</div>
+ @* <img src="images\ER_background.jpg" alt="Equipo Rocket" width="150" height="100">  
+ <img src="https://pm1.narvii.com/6098/c3b54080320892488c98e6bd68aaac4397086ac0_128.jpg" alt="Equipo Rocket">
+ *@
+
+ 
+
+@* <div class="main-block">
+      <div class="left-part">       
+        <i class="fas fa-user-astronaut"></i>  
+        <div class="contenedor">
+          <img src="images\ER_background.jpg" alt="Equipo Rocket">
+          
+         
+          <div class="texto-debajo">
+            <h1>Equipo Rocket</h1> 
+          </div>
+         
+        </div>  
+                       
+      </div>
+      
+      <form action="/">
+        <div class="title">
+          <i class="fas fa-pencil-alt"></i> 
+          <h2>Registro directivo</h2>
+        </div>
+        <div class="info">
+          <input type="number" name="Id" value=""placeholder="Id">
+          <input type="text" name="NumeroTelefono" placeholder="Numero de telefono">
+          <input class="name" type="text" name="Nombre" placeholder="Nombre">
+          <input type="number" name="Edad" placeholder="Edad">
+          <input type="number" name="TipoDocumento" placeholder="Tipo de Documento">
+          <input type="number" name="Documento" placeholder="Documento">
+        
+          <!--
+          
+          <input type="text" name="name" placeholder="Phone number">
+          <input type="password" name="name" placeholder="Password">
+           <select>
+            <option value="course-type" selected>Course type*</option>
+            <option value="short-courses">Short courses</option>
+            <option value="featured-courses">Featured courses</option>
+            <option value="undergraduate">Undergraduate</option>
+            <option value="diploma">Diploma</option>
+            <option value="certificate">Certificate</option>
+            <option value="masters-degree">Masters degree</option>
+            <option value="postgraduate">Postgraduate</option>
+          </select>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox"><span>I agree to the <a href="https://www.w3docs.com/privacy-policy">Privacy Poalicy for W3Docs.</a></span>
+        
+        </div>
+      <button type="submit" href="/">Enviar</button>
+      -->        
+        <div class="btn-group" align="center">
+          <a class="btn-item" >Guardar</a>
+          <a class="btn-item" >Cancelar</a>
+        </div>
+      </form>
+    </div> *@
