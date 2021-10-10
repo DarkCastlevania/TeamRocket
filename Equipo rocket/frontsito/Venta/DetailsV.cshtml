@@ -1,0 +1,92 @@
+﻿@page
+@model MyApp.Namespace.DetailsVModel
+@{
+ViewData["Title"] ="Detalle Venta";    
+}
+<h1>Detalle Venta</h1>
+<small>
+</small>
+<div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.venta.Id)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => Model.venta.Id)                        
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.venta.Nombre)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => Model.venta.Nombre)                        
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.venta.Detalle)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.venta.Detalle)
+        </dd>
+    </div>    
+<div><a class="btn btn-dark" asp-page="./ListProducto"><i class="fas fa-angle-double-left"></i></a>
+</div>
+ 
+ 
+
+@* <div class="main-block">
+      <div class="left-part">       
+        <i class="fas fa-user-astronaut"></i>  
+        <div class="contenedor">
+          <img src="images\ER_background.jpg" alt="Equipo Rocket">
+          
+         
+          <div class="texto-debajo">
+            <h1>Equipo Rocket</h1> 
+          </div>
+         
+        </div>  
+                       
+      </div>
+      
+      <form action="/">
+        <div class="title">
+          <i class="fas fa-pencil-alt"></i> 
+          <h2>Registro Venta</h2>
+        </div>
+        <div class="info">
+          <input type="number" name="Id" value=""placeholder="Id">
+          <input type="text" name="Nombre" placeholder="Nombre">
+          <input class="name" type="text" name="Nombre" placeholder="Nombre">
+          <input type="number" name="Id" placeholder="Id">
+          
+        
+          <!--
+          
+          <input type="text" name="name" placeholder="Nombre Producto">
+           <select>
+            <option value="course-type" selected>Course type*</option>
+            <option value="short-courses">Short courses</option>
+            <option value="featured-courses">Featured courses</option>
+            <option value="undergraduate">Undergraduate</option>
+            <option value="diploma">Diploma</option>
+            <option value="certificate">Certificate</option>
+            <option value="masters-degree">Masters degree</option>
+            <option value="postgraduate">Postgraduate</option>
+          </select>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox"><span>I agree to the <a href="https://www.w3docs.com/privacy-policy">Privacy Poalicy for W3Docs.</a></span>
+        
+        </div>
+      <button type="submit" href="/">Enviar</button>
+      -->        
+        <div class="btn-group" align="center">
+          <a class="btn-item" >Guardar</a>
+          <a class="btn-item" >Cancelar</a>
+        </div>
+      </form>
+    </div> *@
+

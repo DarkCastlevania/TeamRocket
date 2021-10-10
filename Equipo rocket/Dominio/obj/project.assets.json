@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ANDRE\\.nuget\\packages\\": {}
+    "C:\\Users\\IEDTISQUESUSA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "c:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\IEDTISQUESUSA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\IEDTISQUESUSA\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

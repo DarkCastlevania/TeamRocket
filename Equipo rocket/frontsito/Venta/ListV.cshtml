@@ -1,0 +1,37 @@
+﻿@page
+@model MyApp.Namespace.ListVModel
+@{
+}
+<div class="textcenter">
+<h2>Venta</h2>
+<a class="btn btn-dark" asp-page="./CreateVenta"><i class="fas fa-user-plus"></i></a>
+
+</div>
+<table style="width:100%">
+  <tr>
+    <th>Id</th>  
+    <th>IdProducto</th>
+    <th>IdCliente</th> 
+     th>Cantidad</th>    
+  </tr>
+  @foreach (var venta in Model.Ventas)
+  {
+    <tr>
+            <td>@venta.Id</td>
+            <td>@venta.IdProducto</td>
+            <td>@venta.IdCliente</td> 
+            <td>@venta.Cantidad</td>  
+            <td><a class="btn btn-dark" asp-page="./DetailsVenta" asp-route-id="@venta.Id"><i class="fas fa-info"></i></a></td>                
+                
+            <td><a class="btn btn-dark" asp-page="./EditVenta" asp-route-id="@venta.Id"><i class="fas fa-edit"></i></a></td>
+                
+            <td><a class="btn btn-dark" asp-page="./DeleteVenta" asp-route-id="@venta.Id"><i class="fas fa-trash-alt"></i></a></td>
+                
+            @* <td><a href="http://www.google.com" target="_blank">google</a></td> *@
+    </tr>
+
+  }
+
+</table>
+
+

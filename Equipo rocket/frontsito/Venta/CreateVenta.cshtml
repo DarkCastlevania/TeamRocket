@@ -1,0 +1,53 @@
+﻿@page
+@model MyApp.Namespace.CreateVentaModel
+@{
+  ViewData["Title"] = "Crear Venta";
+}
+
+<head>
+    <title>Educational registration form</title>
+    <link rel="stylesheet" href="Empresa.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+   
+  </head>
+  <body>
+    
+    <div class="main-block">
+      <div class="left-part">       
+        <i class="fas fa-user-astronaut"></i>  
+        <div class="contenedor">
+          <IMG class="resize" SRC="ER_background.jpg"  ALIGN=LEFT HSPACE=100 VSPACE=30>
+          
+         
+          <div class="texto-debajo">
+            <h1>Equipo Rocket</h1> 
+          </div>
+         
+        </div>  
+                       
+      </div>
+      
+      <form  method="post" >
+        <div class="title">
+          <i class="fas fa-pencil-alt"></i> 
+          <h2>Registro Venta</h2>
+        </div>
+        <div class="info"> 
+          <input asp-for="venta.Id" class="name" type="text" name="Venta" placeholder="Venta">         
+          <input asp-for="venta.IdProducto" class="name" type="text" name="Producto" placeholder="Producto">
+          <input asp-for="vente.IdCliente" type="number" name="Cliente" placeholder="Cliente">    
+          <input asp-for="vente.Cantidad" type="number" name="Cantidad" placeholder="Cantidad"> 
+          <input asp-for="vente.Fecha" type="Date time" name="Fecha" placeholder="Fecha">           
+        <div class="btn-group" align="center">
+          <input type="submit" value="Crear" class="btn btn-dark" />
+        </div>
+      </form>
+    </div>
+    <div><a class="btn btn-dark" asp-page="./ListVenta"><i class="fas fa-angle-double-left"></i></a></div>    
+  </body> 
+  
+
+
+
