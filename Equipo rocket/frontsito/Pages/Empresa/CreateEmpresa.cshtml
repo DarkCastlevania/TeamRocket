@@ -1,7 +1,7 @@
 ﻿@page
-@model MyApp.Namespace.CreateProductoModel
+@model MyApp.Namespace.CreateEmpresaModel
 @{
-ViewData["Title"] = "Crear Producto";
+ViewData["Title"] = "Crear Empresa";
 }
 
 <head>
@@ -32,17 +32,17 @@ ViewData["Title"] = "Crear Producto";
       <form  method="post" >
         <div class="title">
           <i class="fas fa-pencil-alt"></i> 
-          <h2>Registro Producto</h2>
+          <h2>Registro Empresa</h2>
         </div>
         <div class="info">          
-          <input asp-for="producto.Nombre" class="name" type="text" name="Nombre" placeholder="Nombre">
-          <input asp-for="producto.Precio" type="number" name="Precio" placeholder="Precio">          
+          <input asp-for="empresa.Nombre" class="name" type="text" name="Nombre" placeholder="Nombre">
+          <input asp-for="empresa.Nit" type="number" name="Nit" placeholder="Nit">          
         <div class="btn-group" align="center">
           <input type="submit" value="Crear" class="btn btn-dark" />
         </div>
       </form>
     </div>
-    <div><a class="btn btn-dark" asp-page="./ListProducto"><i class="fas fa-angle-double-left"></i></a></div>    
+    <div><a class="btn btn-dark" asp-page="./ListEmpresa"><i class="fas fa-angle-double-left"></i></a></div>    
   </body> 
   
 

@@ -4,7 +4,7 @@
 }
 <div class="textcenter">
 <h2>Producto</h2>
-<a class="btn btn-dark" asp-page="./CreateEmpleados"><i class="fas fa-user-plus"></i></a>
+<a class="btn btn-dark" asp-page="./CreateProducto"><i class="fas fa-user-plus"></i></a>
 
 </div>
 <table style="width:100%">
@@ -19,11 +19,11 @@
             <td>@producto.Id</td>
             <td>@producto.Nombre</td>
             <td>@producto.Precio</td>   
-            <td><a class="btn btn-dark" asp-page="./Details" asp-route-id="@producto.Id"><i class="fas fa-info"></i></a></td>                
+            <td><a class="btn btn-dark" asp-page="./DetailsProducto" asp-route-id="@producto.Id"><i class="fas fa-info"></i></a></td>                
                 
-            <td><a class="btn btn-dark" asp-page="./Edit" asp-route-id="@producto.Id"><i class="fas fa-edit"></i></a></td>
+            <td><a class="btn btn-dark" asp-page="./EditProducto" asp-route-id="@producto.Id"><i class="fas fa-edit"></i></a></td>
                 
-            <td><a class="btn btn-dark" asp-page="./Delete" asp-route-id="@producto.Id"><i class="fas fa-trash-alt"></i></a></td>
+            <td><a class="btn btn-dark" asp-page="./DeleteP" asp-route-id="@producto.Id"><i class="fas fa-trash-alt"></i></a></td>
                 
             @* <td><a href="http://www.google.com" target="_blank">google</a></td> *@
     </tr>

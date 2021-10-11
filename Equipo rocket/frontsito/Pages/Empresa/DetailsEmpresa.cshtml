@@ -1,37 +1,37 @@
 ﻿@page
-@model MyApp.Namespace.DetailsProductoModel
+@model MyApp.Namespace.DetailsEmpresaModel
 @{
-ViewData["Title"] ="Detalle Producto";    
+ViewData["Title"] ="Detalle Empresa";    
 }
-<h1>Detalle Producto</h1>
+<h1>Detalle Empresa</h1>
 <small>
 </small>
 <div>
     <div class="row">
         <dt class="col-md-2">
-            @Html.DisplayNameFor(model => Model.producto.Id)            
+            @Html.DisplayNameFor(model => Model.empresa.Id)            
         </dt>
         <dd class="col-md-10">
-            @Html.DisplayFor(model => Model.producto.Id)                        
+            @Html.DisplayFor(model => Model.empresa.Id)                        
         </dd>
     </div>
     <div class="row">
         <dt class="col-md-2">
-            @Html.DisplayNameFor(model => Model.producto.Nombre)            
+            @Html.DisplayNameFor(model => Model.empresa.Nombre)            
         </dt>
         <dd class="col-md-10">
-            @Html.DisplayFor(model => Model.producto.Nombre)                        
+            @Html.DisplayFor(model => Model.empresa.Nombre)                        
         </dd>
     </div>
     <div class="row">
         <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.producto.Precio)            
+            @Html.DisplayNameFor(model => model.empresa.Nit)            
         </dt>
         <dd class="col-md-10">
-            @Html.DisplayFor(model => model.producto.Precio)
+            @Html.DisplayFor(model => model.empresa.Nit)
         </dd>
     </div>    
-<div><a class="btn btn-dark" asp-page="./ListProducto"><i class="fas fa-angle-double-left"></i></a>
+<div><a class="btn btn-dark" asp-page="./ListEmpresa"><i class="fas fa-angle-double-left"></i></a>
 </div>
  
  

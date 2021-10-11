@@ -1,0 +1,35 @@
+﻿@page
+@model MyApp.Namespace.ListEmpresaModel
+@{
+}
+<div class="textcenter">
+<h2>Empresa</h2>
+<a class="btn btn-dark" asp-page="./CreateEmpresa"><i class="fas fa-user-plus"></i></a>
+
+</div>
+<table style="width:100%">
+  <tr>
+    <th>Id</th>  
+    <th>Nombre</th>
+    <th>Nit</th>     
+  </tr>
+  @foreach (var empresa in Model.Empresas)
+  {
+    <tr>
+            <td>@empresa.Id</td>
+            <td>@empresa.Nombre</td>
+            <td>@empresa.Nit</td>   
+            <td><a class="btn btn-dark" asp-page="./DetailsEmpresa" asp-route-id="@empresa.Id"><i class="fas fa-info"></i></a></td>                
+                
+            <td><a class="btn btn-dark" asp-page="./EditEmpresa" asp-route-id="@empresa.Id"><i class="fas fa-edit"></i></a></td>
+                
+            <td><a class="btn btn-dark" asp-page="./DeleteEmpresa" asp-route-id="@empresa.Id"><i class="fas fa-trash-alt"></i></a></td>
+                
+            @* <td><a href="http://www.google.com" target="_blank">google</a></td> *@
+    </tr>
+
+  }
+
+</table>
+
+

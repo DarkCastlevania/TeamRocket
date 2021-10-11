@@ -31,6 +31,11 @@ namespace frontsito
         {
             services.AddRazorPages();
             services.AddScoped<IRepositorioCliente,RepositorioCliente>();
+            services.AddScoped<IRepositorioEmpleado,RepositorioEmpleado>(); 
+            services.AddScoped<IRepositorioDirectivo,RepositorioDirectivo>(); 
+            services.AddScoped<IRepositorioProducto,RepositorioProducto>(); 
+            services.AddScoped<IRepositorioVenta,RepositorioVenta>(); 
+            services.AddScoped<IRepositorioEmpresa,RepositorioEmpresa>(); 
             services.AddDbContext<AplicacionContext>(options => options.UseSqlServer(connectionString));
         }
 

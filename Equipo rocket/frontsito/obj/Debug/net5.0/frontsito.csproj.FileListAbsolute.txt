@@ -331,3 +331,9 @@ C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Producto\DeleteP.cshtml.g.cs
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Producto\DetailsProducto.cshtml.g.cs
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Producto\ListProducto.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Producto\EditProducto.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empresa\CreateEmpresa.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empresa\DeleteEmpresa.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empresa\DetailsEmpresa.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empresa\EditEmpresa.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empresa\ListEmpresa.cshtml.g.cs
