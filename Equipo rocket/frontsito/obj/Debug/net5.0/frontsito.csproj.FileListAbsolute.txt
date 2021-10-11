@@ -337,3 +337,8 @@ C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empresa\DetailsEmpresa.cshtml.g.cs
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empresa\EditEmpresa.cshtml.g.cs
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Empresa\ListEmpresa.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Directivo\CreateDirectivo.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Directivo\DeleteDirectivo.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Directivo\DetailsDirectivo.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Directivo\EditDirectivo.cshtml.g.cs
+C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Debug\net5.0\Razor\Pages\Directivo\ListDirectivo.cshtml.g.cs

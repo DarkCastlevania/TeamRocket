@@ -50,7 +50,10 @@ namespace Persistencia
                 directivo_encontrado.Edad = directivo.Edad;
                 directivo_encontrado.TipoDocumento = directivo.TipoDocumento;
                 directivo_encontrado.Documento = directivo.Documento; 
+                directivo_encontrado.GrupoEmpleados = directivo.GrupoEmpleados; 
                 directivo_encontrado.Id = directivo.Id;
+                directivo_encontrado.Categoria = directivo.Categoria; 
+
                 _appContext.Update(directivo_encontrado);
                 _appContext.SaveChanges();  
                 return directivo_encontrado;
