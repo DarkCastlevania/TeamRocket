@@ -15,6 +15,14 @@ ViewData["Title"] ="Detalle Venta";
             @Html.DisplayFor(model => Model.venta.Id)                        
         </dd>
     </div>
+     <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.venta.IdProducto)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => Model.venta.IdProducto)                        
+        </dd>
+    </div>
     <div class="row">
         <dt class="col-md-2">
             @Html.DisplayNameFor(model => Model.venta.Cantidad)            
@@ -31,7 +39,7 @@ ViewData["Title"] ="Detalle Venta";
             @Html.DisplayFor(model => model.venta.IdCliente)
         </dd>
     </div>    
-<div><a class="btn btn-dark" asp-page="./ListProducto"><i class="fas fa-angle-double-left"></i></a>
+<div><a class="btn btn-dark" asp-page="./ListV"><i class="fas fa-angle-double-left"></i></a>
 </div>
  
  

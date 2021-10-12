@@ -7189,19 +7189,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IEDTISQUESUSA\\.nuget\\packages\\": {}
+    "C:\\Users\\ANDRE\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\frontsito\\frontsito.csproj",
+      "projectUniqueName": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\frontsito\\frontsito.csproj",
       "projectName": "frontsito",
-      "projectPath": "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\frontsito\\frontsito.csproj",
-      "packagesPath": "C:\\Users\\IEDTISQUESUSA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\frontsito\\obj\\",
+      "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\frontsito\\frontsito.csproj",
+      "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\frontsito\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\IEDTISQUESUSA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -7213,11 +7213,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj"
+            "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Dominio\\Dominio.csproj"
             },
-            "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "C:\\Users\\IEDTISQUESUSA\\Documents\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj"
+            "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Persistencia\\Persistencia.csproj"
             }
           }
         }
@@ -7271,7 +7271,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

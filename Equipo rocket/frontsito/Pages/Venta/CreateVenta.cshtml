@@ -1,7 +1,7 @@
 ﻿@page
-@model MyApp.Namespace.EditVModel
+@model MyApp.Namespace.CreateVentaModel
 @{
-ViewData["Title"] ="Editar Venta";    
+  ViewData["Title"] = "Crear Venta";
 }
 
 <head>
@@ -29,24 +29,25 @@ ViewData["Title"] ="Editar Venta";
                        
       </div>
       
-      <form method="post" >
+      <form  method="post" >
         <div class="title">
           <i class="fas fa-pencil-alt"></i> 
           <h2>Registro Venta</h2>
         </div>
-        <div class="info">
-           <input asp-for="venta.Id" class="name" type="text" name="Venta" placeholder="Venta">         
-          <input asp-for="venta.IdProducto" class="name" type="text" name="Producto" placeholder="Producto">
-          <input asp-for="vente.IdCliente" type="number" name="Cliente" placeholder="Cliente">    
-          <input asp-for="vente.Cantidad" type="number" name="Cantidad" placeholder="Cantidad"> 
-          <input asp-for="vente.Fecha" type="Date time" name="Fecha" placeholder="Fecha">  
-          
+        <div class="info"> 
+          @* <input asp-for="venta.Id" class="name" type="text" name="Venta" placeholder="Venta">          *@
+          <input asp-for="venta.IdProducto" type="number" name="IdProducto" placeholder="Producto Id">
+          <input asp-for="venta.IdCliente" type="number" name="IdCliente" placeholder="Cliente Id">    
+          <input asp-for="venta.Cantidad" type="number" name="Cantidad" placeholder="Cantidad"> 
+          <input asp-for="venta.Fecha" type="Date time" name="Fecha" placeholder="Fecha">           
         <div class="btn-group" align="center">
-        <input type="submit" value="Actualizar" class="btn btn-dark" />
+          <input type="submit" value="Crear" class="btn btn-dark" />
         </div>
       </form>
     </div>
-    <div><a class="btn btn-dark" asp-page="./ListVenta"><i class="fas fa-angle-double-left"></i></a></div>    
-</div>
-  </body>
+    <div><a class="btn btn-dark" asp-page="./ListV"><i class="fas fa-angle-double-left"></i></a></div>    
+  </body> 
+  
+
+
 
