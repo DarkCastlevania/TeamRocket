@@ -37,6 +37,7 @@ namespace frontsito
             services.AddScoped<IRepositorioVenta,RepositorioVenta>(); 
             services.AddScoped<IRepositorioEmpresa,RepositorioEmpresa>(); 
             services.AddDbContext<AplicacionContext>(options => options.UseSqlServer(connectionString));
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,6 +58,8 @@ namespace frontsito
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

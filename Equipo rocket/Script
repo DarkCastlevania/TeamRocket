@@ -53,10 +53,15 @@ dotnet new page -n List
 dotnet new page -n List -o Cliente
 // crear pagina de list en la carpeta persona
 
+//generador de codigo
+dotnet tool install -g dotnet-aspnet-codegenerator
 
+dotnet aspnet-codegenerator identity -h
 
+dotnet aspnet-codegenerator identity -–useDefaultUI
 
+//"frontsitoIdentityDbContextConnection": "Server=(localdb)\\mssqllocaldb;Database=frontsito;Trusted_Connection=True;MultipleActiveResultSets=true"    
 
-
+"frontsitoIdentityDbContextConnection": "Server=localhost\\sqlexpress;Database=Erocket;Trusted_Connection=True;MultipleActiveResultSets=true"
 
 
