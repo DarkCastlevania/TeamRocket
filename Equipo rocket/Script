@@ -59,9 +59,17 @@ dotnet tool install -g dotnet-aspnet-codegenerator
 dotnet aspnet-codegenerator identity -h
 
 dotnet aspnet-codegenerator identity -–useDefaultUI
-
-//"frontsitoIdentityDbContextConnection": "Server=(localdb)\\mssqllocaldb;Database=frontsito;Trusted_Connection=True;MultipleActiveResultSets=true"    
-
-"frontsitoIdentityDbContextConnection": "Server=localhost\\sqlexpress;Database=Erocket;Trusted_Connection=True;MultipleActiveResultSets=true"
-
-
+//connectionString localhost
+//"frontsitoIdentityDbContextConnection": "Server=localhost\\sqlexpress;Database=frontsito;Trusted_Connection=True;MultipleActiveResultSets=true"    
+cd frontsito
+//generar la base de datos azure 
+dotnet ef migrations add IdentityAzure --context frontsitoIdentityDbContext 
+//actualizar la base de datos 
+dotnet ef database update --context frontsitoIdentityDbContext 
+cd persistencia
+//generar la base de datos de persistencia 
+dotnet ef migrations add Azure --startup-project ..\Persistencia
+//actualizar la base de datos 
+dotnet ef database update --startup-project ..\Persistencia
+//despliegue en azure 
+dotnet publish -c Release -o ./publish

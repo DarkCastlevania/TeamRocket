@@ -18,8 +18,8 @@ namespace Persistencia
        public DbSet<Familiar> familiar {get; set;}
 
 
-       private const string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog = Erocket;Integrated Security = True";
-
+       //private const string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog = Erocket;Integrated Security = True";
+       private const string connectionString = @"Data Source=tcp:teamrocket.database.windows.net,1433;Initial Catalog=Erocket;Persist Security Info=False;User ID=admijessie;Password=Teamrocket1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
        public AplicacionContext() { }
        
             public AplicacionContext(DbContextOptions<AplicacionContext> options)
