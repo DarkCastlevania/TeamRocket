@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OknckYNQggM1mkdPCuZlOMpcnW0drEz5vjFLEgCayIHrRpWPvcRu/ruuTXbThUtNBui4LwV0DHp+D30zgDKuCw==",
+  "dgSpecHash": "Er5ouldGDC70LCzvdI7b8OxAOyVaYd4Za1NDZalbxQkky/UAwTXNHfyq0wPEuPl1Vi6wHC0WH+egxvbE4wAqxA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Servicios\\Servicios.csproj",
+  "projectFilePath": "C:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Servicios\\Servicios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ANDRE\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -108,12 +108,5 @@
     "C:\\Users\\ANDRE\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché c:\\Users\\ANDRE\\OneDrive\\Documentos\\GitHub\\TeamRocket\\Equipo rocket\\Servicios\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

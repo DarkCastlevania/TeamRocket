@@ -199,8 +199,3 @@ C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Release\net5.0\ref\frontsito.dll
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Release\net5.0\frontsito.pdb
 C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\obj\Release\net5.0\frontsito.genruntimeconfig.cache
-C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\bin\Release\net5.0\publish\web.config
-C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\bin\Release\net5.0\publish\appsettings.Development.json
-C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\bin\Release\net5.0\publish\appsettings.json
-C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\bin\Release\net5.0\publish\frontsito.deps.json
-C:\Users\ANDRE\OneDrive\Documentos\GitHub\TeamRocket\Equipo rocket\frontsito\bin\Release\net5.0\publish\frontsito.runtimeconfig.json
